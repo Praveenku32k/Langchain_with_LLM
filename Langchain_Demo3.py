@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 load_dotenv()
 
 hub_llm = HuggingFaceHub(
-    repo_id="anon8231489123/vicuna-13b-GPTQ-4bit-128g",
+    repo_id="google/flan-t5-base",
     model_kwargs={'temperature': 0.7, 'max_length': 100}
 )
 
